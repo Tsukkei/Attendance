@@ -1,3 +1,5 @@
+// LEAP YEAR 1/1
+
 import java.util.Scanner;
 
 public class sample {
@@ -18,5 +20,37 @@ try (Scanner scan = new Scanner(System.in)) {
     }
 }
    
+    }
+}
+
+// BASIC OPERATION 1/2
+
+package attendance;
+
+import java.util.Scanner;
+
+public class Earl {
+    
+    static Scanner scan = new Scanner(System.in);
+
+
+
+   public static void main(String[] args) {
+        // TODO Auto-generated method stub
+        System.out.println("value of x: ");
+        int x = scan.nextInt();
+        System.out.println("value of y: ");
+        int y = scan.nextInt();
+        System.out.println("value of z: ");
+        int z = scan.nextInt();
+        
+        
+        int sum = x + y + z;
+        double average = sum / 3;
+        float product = x * y * z;
+        
+        System.out.println("Sum" + sum);
+        System.out.println("average" + average);
+        System.out.println("product" + product);
     }
 }
